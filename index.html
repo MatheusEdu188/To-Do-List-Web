@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <article id="article-form">
+            <section id="section-form">
+                <h2 class="criar-titulo">Criar Tarefa</h2>
+                <form id="form-tarefas" action="" method="get">
+                    <label for="nome-tarefa">Digite a Tarefa:</label>
+                    <input type="text" name="nome-tarefa" id="input-tarefa" placeholder="Ex: Estudar">
+
+                    <label for="prioridade">Prioridade</label>
+
+                    <span>Baixa</span>
+                    <input class="input-prioridade" type="radio" name="prioridade" value="baixa" id="">
+
+                    <span>Média</span>
+                    <input class="input-prioridade" type="radio" name="prioridade" value="media" id="">
+
+                    <span>Alta</span>
+                    <input class="input-prioridade" type="radio" name="prioridade" value="alta" id="">
+
+                    <span>Urgente</span>
+                    <input class="input-prioridade" type="radio" name="prioridade" value="Urgente" id="">
+
+
+                    <button id="btn-salvar" type="submit">Salvar</button>
+                </form>
+            </section>
+
+
+            <section id="section-tarefas">
+                <h2 class="titulo-tarefas">Tarefas</h2>
+                <ul id="lista-tarefas">
+                    
+                    
+                    
+                    
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+
+    
+</body>
+</html>
